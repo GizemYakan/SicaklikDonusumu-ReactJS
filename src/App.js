@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <h1>Sıcaklık Dönüşüm Uygulaması</h1>
-      <Sicaklik celcius={sicaklikC} birim="c"/>
-      <Sicaklik celcius={sicaklikC} birim="f"/>
+      <Sicaklik celcius={sicaklikC} birim="c" sicaklikDegisti={setSicaklikC}/>
+      <Sicaklik celcius={sicaklikC} birim="f" sicaklikDegisti={setSicaklikC}/>
       <KaynamaKarar celcius={sicaklikC}/>
     </div>
   );
